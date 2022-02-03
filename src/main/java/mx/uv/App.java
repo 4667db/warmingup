@@ -17,5 +17,7 @@ public class App {
             respuesta.addProperty("msj", "hola");
             return respuesta;
         });
+	// nueva contribucion de prueba
+	get("/", (rq,rs)->{return "hola2"});
     }
 }
