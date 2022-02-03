@@ -10,7 +10,7 @@ import com.google.gson.*;
 public class App {
     public static void main(String[] args) {
         System.out.println("Hello World!");
-
+        // prueba
         before((rq, rs) -> rs.type("application/json"));
         get("/hola", (rq, rs) -> {
             JsonObject respuesta = new JsonObject();
